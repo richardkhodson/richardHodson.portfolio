@@ -5,7 +5,7 @@ body {
     background-color: #f9f8f6;
     background-image: url("../images/dark-wood.jpg");
     background-position: center;
-    font-family: Georgia, Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4em;
     margin: 0px;}
 .wrapper {
@@ -15,9 +15,11 @@ body {
     background-color: #ffffff;}
 header {
     height: 160px;
-    background-image: url(../images/richardGrin.JPG);}
+    background-image: url(../images/backdrop.gif);}
 h1 {
-    text-indent: -9999px;
+    font-size: 500%;
+    text-indent: 48px;
+    font-align: bottom;
     width: 940px;
     height: 130px;
     margin: 0px;}
@@ -48,11 +50,20 @@ hgroup {
     margin-top: 40px;}
 figure {
     float: left;
-    width: 290px;
-    height: 220px;
-    padding: 5px;
+    width: 250px;
+    height: 249px;
+    padding: 8px;
     margin: 20px;
-    border: 1px solid #eeeeee;}
+    border: 1px solid #eeeeee;
+    background-image: url(../images/backdrop.gif);}
+figure1 {
+    float: left;
+    width: 250px;
+    height: 123px;
+    padding: 8px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+    background-image: url(../images/backdrop.gif);}
 figcaption {
     font-size: 90%;
     text-align: left;}
@@ -68,7 +79,7 @@ aside section a:hover {
     color: #985d6a;
     background-color: #efefef;}
 a {
-    color: #de6581;
+    color: #1d1caf;
     text-decoration: none;}
 h1, h2, h3 {
     font-weight: normal;}
