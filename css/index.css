@@ -14,15 +14,24 @@ body {
     border: 2px solid #000000;
     background-color: #ffffff;}
 header {
-    height: 160px;
-    background-image: url(../images/backdrop.gif);}
+    /*height: 160px;*/
+    /*background-image: url(../images/backdrop.gif);*/
+    /*background-repeat: repeat;*/
+}
 h1 {
-    font-size: 500%;
-    text-indent: 48px;
-    font-align: bottom;
-    width: 940px;
-    height: 130px;
-    margin: 0px;}
+    font-size: 100px;
+    background-image: url(../images/backdrop.gif);
+    background-repeat: repeat;
+    text-indent: 25px;
+    /*!*width: 940px;*!*/
+    /*!*height: 130px;*!*/
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 nav, footer {
     clear: both;
     color: #ffffff;
@@ -38,7 +47,7 @@ nav li a {
     color: #ffffff;}
 nav li a:hover, nav li a.current {
     color: #000000;}
-section.courses {
+section.portfolio {
     float: left;
     width: 659px;
     border-right: 1px solid #eeeeee;}
