@@ -13,7 +13,7 @@
             <ul>
                 <li role="presentation"><a href="index.html">homePage</a></li>
                 <li role="presentation"><a href="portFolio.html">portfolioPage</a></li>
-                <li role="presentation" class="current"><a href="feedBackloop.html">feedbackLoop</a></li>
+                <li role="presentation"><a class="current" href="feedBackloop.html">feedbackLoop</a></li>
                 <li role="presentation"><a href="resuMe.html">resumePage</a></li>
                 <li role="presentation"><a href="aboutMe.html">aboutMe</a></li>
                 <li role="presentation"><a href="siteMap.html">siteMap</a></li>
@@ -23,44 +23,66 @@
     <section class="portfolio">
         <article>
             <figure1>
-                <img src="images/xactware500-logo.jpg" alt="xactware-logo" border="1" width="248" height="124"/>
+                <img src="images/xactware500-logo.jpg" alt="xactware-logo" border="1" width="200" height="124"/>
                 <figcaption>Xactware Solutions, Inc.</figcaption>
             </figure1>
             <hgroup>
                 <h2>Xactware</h2>
                 <h3>A Verisk Analytics company</h3>
             </hgroup>
-            <p>Xactware Solutions provides computer software solutions for professionals involved in estimating all phases of building and repair.</p>
+            <p>Xactware Solutions provides computer software solutions for professionals involved in estimating all
+                phases of building and repair.</p>
         </article>
         <article>
             <figure>
-                <img class="myPhoto" src="images/richardGrin.JPG" alt="Richard Hodson" border="1" width="248" height="250"/>
-                <figcaption>Richard K. Hodson</figcaption>
+                <img class="myPhoto" src="images/matc-logo2.jpg" alt="MATC Logo" border="1" width="198" height="200"/>
+                <figcaption>MATC</figcaption>
             </figure>
             <hgroup>
-                <h2>Richard K. Hodson</h2>
-                <h3>QA Testing Analyst</h3>
+                <h2>MATC</h2>
+                <h3>Lehi, Utah</h3>
             </hgroup>
-            <p>Member of the Xactimate Online testing team directed and inspired by QA Manager, F. Andre Morales; under
-                whose direction the QA department has increased quality standards by 83.25% in the past 1.79 years.</p>
+            <p>Mountainland Applied Technology College, located in the cities of Orem and Lehi, Utah, was established in
+                1989 to provide workforce development opportunities for residents of the region. The school also
+                maintains cooperative programs and courses with Utah Valley University, particularly through the
+                school's Wasatch Campus in Herber.</p>
         </article>
     </section>
     <aside>
-        <section class="resume-sections">
-            <h2>Resume Sections</h2>
-            <a href="">Education</a>
-            <a href="">Certificaion</a>
-            <a href="">Key Skills</a>
-            <a href="">Employemnt Experience</a>
-            <a href="">Technical Background</a>
-        </section>
-        <section class="contact-details">
-            <h2>Contact</h2>
-            <p>richardPorfolio<br />
-                27 Redchurch Street<br />
-                Pleasant Grove, Utah<br />
-                84062</p>
-        </section>
+        <form action="http://www.example.com/review.php" method="get">
+            <fieldset>
+                <legend>Your Details:</legend>
+                <label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br/>
+                <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br/>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Your Review:</legend>
+                <p>
+                    <label for="hear-about">How did you hear about us?</label>
+                    <br>
+                    <select name="referrer" id="hear-about">
+                        <option value="google">Google</option>
+                        <option value="friend">Friend</option>
+                        <option value="advert">Advert</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <p>
+                    Would you visit again?<br/>
+                    <label><input type="radio" name="rating" value="yes"/> Yes</label>
+                    <label><input type="radio" name="rating" value="no"/> No</label>
+                    <label><input type="radio" name="rating" value="maybe"/> Maybe</label>
+                </p>
+                <p>
+                    <label for="comments">Comments:</label><br/>
+                    <textarea rows="4" cols="28" id="comments"></textarea>
+                </p>
+                <label><input type="checkbox" name="subscribe" checked="checked"/> Sign me up for email
+                    updates</label><br/>
+                <input type="submit" value="Submit review"/>
+            </fieldset>
+        </form>
     </aside>
     <footer>
         &copy; 2016 richardPortfolio
